@@ -41,6 +41,20 @@ npm update
 ```
 
 
+## Additional React adjacent resources to be explored further. 
+    - Technical documentation for 
+        - Software engineering 
+            - experimentation,
+                - NPM Packages
+                - [cupper](https://thepaciellogroup.github.io/cupper/patterns/installation/)
+            - teaching, and 
+            - UX/UI implementation.
+                -Static Site Generators
+                    - [Hugo](https://thepaciellogroup.github.io/cupper/patterns/installation/#install-hugo)
+
+
+
+
 
 # Getting Started with Create React App
 
