@@ -5,32 +5,40 @@
 
 # Gulp is an NPM module and must be installed globally
 
+```zsh
 npm install -g gulp
+```
 
+```bash
 #Install Semantic UI
 #Semantic UI is available in an eponymous #package on NPM
 
 npm install semantic-ui --save
 cd semantic/
 gulp build
+```
 
 Include in Your HTML
 Running the gulp build tools will compile CSS and Javascript for use in your project. Just link to these files in your HTML along with the latest jQuery.
 
+```html
 <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-
+```
+```Javascript
 <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 <script src="semantic/dist/semantic.min.js"></script>
+```
 
 
 Updating via NPM
 Semantic's NPM install script will automatically update Semantic UI to the latest version while preserving your site and packaged themes.
 
+```zsh
 npm update
-
+```
 
 
 
